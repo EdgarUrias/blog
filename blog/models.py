@@ -14,7 +14,7 @@ class Post(models.Model):
 
 	)
 
-	body =  models.TextField()
+	body = models.TextField()
 
 
 	def __str__(self):
