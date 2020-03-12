@@ -2,6 +2,7 @@ body {
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 18px;
 }
+
 header {
 	border-bottom: 1px solid #999;
 	margin-bottom: 2rem;
@@ -14,8 +15,6 @@ header h1 a{
 	text-decoration: none;
 }
 
-text-decoration: none;
-}
 
 .nav-left {
 	margin-right: auto;
@@ -24,6 +23,7 @@ text-decoration: none;
 .nav-right {
 	display: flex;
 	padding-top: 2rem;
+	justify-content: flex-end;
 }
 
 .post-entry {
